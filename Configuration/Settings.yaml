@@ -1,0 +1,14 @@
+Neos:
+  Flow:
+    resource:
+      targets:
+
+        localWebDirectoryStaticResourcesTarget:
+          target: 'Flownative\TransliterationPublishingTarget\FileSystemSymlinkTarget'
+          targetOptions:
+            transliterationLanguage: 'de'
+
+        localWebDirectoryPersistentResourcesTarget:
+          target: 'Flownative\TransliterationPublishingTarget\FileSystemSymlinkTarget'
+          targetOptions:
+            transliterationLanguage: 'de'
