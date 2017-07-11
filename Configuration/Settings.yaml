@@ -12,3 +12,17 @@ Neos:
           target: 'Flownative\TransliterationPublishingTarget\FileSystemSymlinkTarget'
           targetOptions:
             transliterationLanguage: 'de'
+
+  Neos:
+    transliterationRules:
+      de:
+        Ä: Ae
+        Ö: Oe
+        Ü: Ue
+        ẞ: SS
+        ä: ae
+        ö: oe
+        ü: ue
+        ß: ss
+
+        # Although they look the same, the following are actually Unicode characters:
