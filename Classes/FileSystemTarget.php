@@ -15,7 +15,6 @@ use Behat\Transliterator\Transliterator;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\ResourceManagement\ResourceMetaDataInterface;
 use Neos\Neos\Service\TransliterationService;
-use Neos\Utility\Unicode\Functions as UnicodeFunctions;
 
 /**
  * A target which supports transliteration for filenames.

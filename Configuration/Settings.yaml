@@ -25,4 +25,11 @@ Neos:
         ü: ue
         ß: ss
 
-        # Although they look the same, the following are actually Unicode characters:
+        # Although they look the same, the following are actually Unicode characters in
+        # other UTF-8 normalization forms (see http://www.unicode.org/reports/tr15/)
+        Ä: Ae
+        Ö: Oe
+        Ü: Ue
+        ä: ae
+        ö: oe
+        ü: ue
