@@ -1,0 +1,8 @@
+-
+  requestFilter: 'isPackage("Neos.Media.Browser") && isController("Asset") && isAction("list")'
+  options:
+    fusionPathPattern: 'resource://Flownative.TransliterationPublishingTarget/Private/Fusion'
+-
+  requestFilter: 'isPackage("Neos.Media.Browser") && isController("Asset") && isAction("list")'
+  options:
+    fusionPathPattern: 'resource://Flownative.TransliterationPublishingTarget/Private/Fusion'
